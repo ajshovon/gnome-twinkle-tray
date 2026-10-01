@@ -3,6 +3,13 @@
 A GNOME Shell extension (GNOME 48–50) that brings [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)'s
 core features to Linux:
 
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/twinkle-tray-dark.png">
+  <img src="screenshots/twinkle-tray-light.png" alt="Twinkle Tray menu with brightness and contrast sliders for two monitors" width="351">
+</picture>
+</p>
+
 | Twinkle Tray (Windows)                                 | Here                                                              |
 |--------------------------------------------------------|-------------------------------------------------------------------|
 | Brightness slider per monitor (DDC/CI VCP 0x10)        | Panel menu with a brightness slider per monitor                   |
