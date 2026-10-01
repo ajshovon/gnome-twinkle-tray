@@ -1,0 +1,17 @@
+{
+  "uuid": "twinkle-tray@local",
+  "name": "Twinkle Tray",
+  "description": "Twinkle Tray-style control of external monitors: brightness and contrast over DDC/CI, linked levels, scroll-to-adjust, shortcuts, and a 'Turn off displays' action that wakes on keyboard/mouse input. Talks DDC/CI directly through a small helper (python3) with as few I2C transfers as possible.",
+  "settings-schema": "org.gnome.shell.extensions.twinkle-tray",
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ],
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "version": 2,
+  "url": "https://github.com/ajshovon/gnome-twinkle-tray"
+}

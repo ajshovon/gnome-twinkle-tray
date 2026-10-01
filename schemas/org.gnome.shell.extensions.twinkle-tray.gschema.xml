@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.twinkle-tray" path="/org/gnome/shell/extensions/twinkle-tray/">
+    <key name="link-levels" type="b">
+      <default>false</default>
+      <summary>Link brightness levels</summary>
+      <description>Moving one monitor's brightness slider moves all of them.</description>
+    </key>
+    <key name="show-contrast" type="b">
+      <default>true</default>
+      <summary>Show contrast sliders</summary>
+    </key>
+    <key name="step" type="i">
+      <range min="1" max="50"/>
+      <default>5</default>
+      <summary>Brightness step (%) for scrolling and shortcuts</summary>
+    </key>
+    <key name="update-interval" type="i">
+      <range min="50" max="2000"/>
+      <default>250</default>
+      <summary>Update rate (ms)</summary>
+      <description>Minimum time between DDC/CI writes to a monitor while a slider moves, like Twinkle Tray's update rate. Lower follows the slider more closely; higher means fewer I2C transfers, which on some drivers (NVIDIA) briefly stall the desktop.</description>
+    </key>
+    <key name="turn-off-delay" type="i">
+      <range min="0" max="5000"/>
+      <default>500</default>
+      <summary>Delay (ms) before turning displays off</summary>
+      <description>Gives you time to release the mouse/keys so the click itself does not wake the displays.</description>
+    </key>
+    <key name="shortcut-turn-off" type="as">
+      <default>[]</default>
+      <summary>Shortcut: turn off displays</summary>
+    </key>
+    <key name="shortcut-brightness-up" type="as">
+      <default>[]</default>
+      <summary>Shortcut: increase brightness of all monitors</summary>
+    </key>
+    <key name="shortcut-brightness-down" type="as">
+      <default>[]</default>
+      <summary>Shortcut: decrease brightness of all monitors</summary>
+    </key>
+  </schema>
+</schemalist>

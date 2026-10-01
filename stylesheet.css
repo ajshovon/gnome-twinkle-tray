@@ -1,0 +1,46 @@
+.twinkle-menu {
+  min-width: 22em;
+  max-width: 22em;
+}
+
+.twinkle-header {
+  padding: 3px 3px 6px 12px;
+  spacing: 6px;
+}
+
+.twinkle-title {
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.twinkle-header-button {
+  padding: 8px;
+}
+
+.twinkle-monitor-header,
+.twinkle-message {
+  padding: 6px 12px 3px 12px;
+  spacing: 12px;
+}
+
+.twinkle-message {
+  padding-bottom: 9px;
+}
+
+.twinkle-row-title {
+  font-weight: bold;
+}
+
+.twinkle-row-detail {
+  font-size: 0.9em;
+}
+
+.twinkle-slider-item {
+  spacing: 12px;
+}
+
+.twinkle-value {
+  min-width: 1.8em;
+  text-align: right;
+  font-feature-settings: "tnum";
+}
